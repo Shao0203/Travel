@@ -1,0 +1,25 @@
+{
+  "name": "travel",
+  "version": "1.0.0",
+  "description": "Build a website using HTML5 &amp; CSS3 from scratch for a travel agency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shao0203/Travel.git"
+  },
+  "keywords": [
+    "travel"
+  ],
+  "author": "bright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shao0203/Travel/issues"
+  },
+  "homepage": "https://github.com/Shao0203/Travel#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0"
+  }
+}
