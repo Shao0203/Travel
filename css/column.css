@@ -1,0 +1,42 @@
+@charset "utf-8";
+/*headline*/
+#headline {
+	width: 100%;
+	height: 300px;
+	min-width: 1263px;
+	background: linear-gradient(to right bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.0)), url(../img/headline.jpg) no-repeat center;
+}
+#headline .center {
+	width: 1263px;
+	height: 300px;
+	margin: 0 auto;
+}
+#headline hgroup {
+	padding: 100px 0 0 50px;
+	color: #eee;
+	letter-spacing: 1px;
+}
+#headline hgroup h2 {
+	font-size: 36px;
+}
+#headline hgroup h3 {
+	font-size: 20px;
+}
+
+#container {
+	width: 1263px;
+	height: 1200px;
+	margin: 30px auto;
+}
+#container .sidebar {
+	width: 340px;
+	height: 1200px;
+	background-color: #eee;
+	float: right;
+}
+#container .list {
+	width: 900px;
+	height: 1200px;
+	background-color: #ccc;
+	float: left;
+}
