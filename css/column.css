@@ -4,7 +4,8 @@
 	width: 100%;
 	height: 300px;
 	min-width: 1263px;
-	background: linear-gradient(to right bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.0)), url(../img/headline.jpg) no-repeat center;
+	background: linear-gradient(to right bottom,rgba(0,0,0,0.7),rgba(0,0,0,0.0)), 
+	url(../img/headline.jpg) no-repeat center;
 }
 #headline .center {
 	width: 1263px;
@@ -22,21 +23,107 @@
 #headline hgroup h3 {
 	font-size: 20px;
 }
-
+/*mainbody*/
 #container {
 	width: 1263px;
-	height: 1200px;
 	margin: 30px auto;
 }
+/*siderbar*/
 #container .sidebar {
 	width: 340px;
-	height: 1200px;
-	background-color: #eee;
 	float: right;
 }
+#container .sidebar .side {
+	border: 1px solid #eee;
+	margin-bottom: 10px;
+	text-align: center;
+
+}
+#container .sidebar h2 {
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-indent: 8px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafa;
+	color: #666;
+	text-align: left;
+}
+#container .sidebar .tag {
+	margin: 10px 0;
+}
+#container .tag li {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #eee;
+	color: #999;
+	margin: 2px 0;
+	text-align: left;
+	text-indent: 8px;
+}
+#container .tag a {
+	display: block;
+	color: #999;
+}
+#container .tag a:hover {
+	background-color: #458b00;
+	color: #fff;
+}
+#container .figure {
+	padding: 10px 0;
+}
+#container .figure figure {
+	display: inline-block;
+	color: #666;
+	padding: 4px;
+}
+#container .sidebar .tool {
+	margin: 10px 0;
+}
+#container .tool li {
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-indent: 35px;
+	background-color: #eee;
+	color: #999;
+	margin: 2px 0;
+	text-align: left;
+}
+#container .tool a {
+	display: block;
+	color: #999;
+}
+#container .tool a.tool1 {
+	background: url(../img/tool1.png) no-repeat 10px center;
+}
+#container .tool a.tool2 {
+	background: url(../img/tool2.png) no-repeat 10px center;
+}
+#container .tool a.tool3 {
+	background: url(../img/tool3.png) no-repeat 10px center;
+}
+#container .tool a.tool4 {
+	background: url(../img/tool4.png) no-repeat 10px center;
+}
+
+
+
 #container .list {
 	width: 900px;
-	height: 1200px;
+	
 	background-color: #ccc;
 	float: left;
 }
+
+
+
+
+
+
+
+
