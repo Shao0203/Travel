@@ -132,7 +132,8 @@
 	line-height: 43px;
 	text-align: center;
 }
-#container .sale li:first-child, #container .sale li:hover {
+#container .sale li:first-child,
+#container .sale li:hover {
 	background-color: #fff;
 	border-top: 2px solid #458b00;
 	position: relative;
@@ -298,7 +299,124 @@
 	cursor: pointer;
 }
 
-
+/*flight*/
+#container .flight {
+	width: 910px;
+	color: #666;
+	font-size: 20px;
+	float: left;
+}
+#container .flight h2 {
+	font-weight: normal;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dashed #999;
+	padding-bottom: 15px;
+}
+#container .flight .ftype {
+	margin: 20px 0 10px 0;
+}
+#container .flight .ftype mark {
+	background-color: #458b00;
+	padding: 5px 8px;
+	color: #fff;
+	border-radius: 4px;
+	margin: 0 10px 0 16px;
+}
+#container .flight .location {
+	display: inline-block;
+	width: 40%;
+}
+#container .flight .location label {
+	display: inline-block;
+	width: 42px;
+}
+#container .flight .date {
+	display: inline-block;
+	width: 42%;
+}
+#container .flight .schbtn {
+	display: inline-block;
+	width: 10%;
+}
+#container .flight p {
+	line-height: 3;
+}
+#container .flight input {
+	width: 250px;
+	height: 30px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 18px;
+	color: #666;
+	background-color: #fff;
+	padding: 5px;
+	margin-left: 5px;
+}
+#container .flight .schfly {
+	display: block;
+	cursor: pointer;
+	background-color: #f60;
+	color: #fff;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 20px;
+	border: none;
+	position: relative;
+	top: 8px;
+}
+#container .flight .latest {
+	margin-top: 20px;
+}
+#container .flight ul {
+	margin-top: 20px;
+}
+#container .flight li {
+	display: inline-block;
+	padding: 5px;
+}
+#container .flight li:first-child {
+	padding-left: 0;
+}
+#container .flight li:nth-child(2) {
+	background-color: #458b00;
+	color: #fff;
+	border-radius: 4px;
+}
+#container .flight table {
+	margin-top: 20px;
+	width: 100%;
+	border: 1px solid #ddd;
+	text-align: center;
+	border-collapse: collapse;
+}
+#container .flight tr {
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #ddd;
+}
+#container .flight tr:nth-child(2n) {
+	background-color: #fafafa;
+}
+#container .flight tr:hover {
+	background-color: #eee;
+}
+#container .flight .price {
+	color: #f60;
+}
+#container .flight a {
+	display: inline-block;
+	background-color: #f60;
+	color: #fff;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 4px;
+}
 
 
 
