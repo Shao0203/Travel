@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*global elements*/
-body, h1, h2, h3, ul, ol, p, figure {
+body, h1, h2, h3, ul, ol, p, form, figure {
 	margin: 0;
 	padding: 0;
 }

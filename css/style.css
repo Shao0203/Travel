@@ -20,20 +20,20 @@
 	margin: -30px 0 0 -300px;
 }
 
-#search .text {
-	width: 467px;
-	height: 54px;
-	border-radius: 10px;
-	border: 1px solid #666;
+#search .search {
+	width: 446px;
+	height: 52px;
 	background-color: #eee;
 	color: #666;
+	border: 1px solid #666;
+	border-radius: 10px;
 	font-size: 24px;
 	padding: 0 10px;
+	margin: -27px 0 0 -296px;
 	outline: none;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin: -27px 0 0 -295px;
 }
 #search .button {
 	width: 120px;

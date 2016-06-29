@@ -358,19 +358,18 @@
 	margin-left: 5px;
 }
 #container .flight .schfly {
-	display: block;
-	cursor: pointer;
 	background-color: #f60;
 	color: #fff;
 	width: 90px;
 	height: 90px;
 	line-height: 90px;
 	text-align: center;
+	border: none;
 	border-radius: 4px;
 	font-size: 20px;
-	border: none;
+	cursor: pointer;
 	position: relative;
-	top: 8px;
+	top: -30px;
 }
 #container .flight .latest {
 	margin-top: 20px;
