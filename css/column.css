@@ -300,13 +300,17 @@
 }
 
 /*flight*/
-#container .flight {
+#container .flight,
+#container .gallery,
+#container .about {
 	width: 910px;
 	color: #666;
 	font-size: 20px;
 	float: left;
 }
-#container .flight h2 {
+#container .flight h2, 
+#container .gallery h2,
+#container .about h2 {
 	font-weight: normal;
 	height: 40px;
 	line-height: 40px;
@@ -417,8 +421,24 @@
 	text-align: center;
 	border-radius: 4px;
 }
-
-
+#container .gallery figure {
+	display: inline-block;
+	width: 435px;
+	border: 1px solid #ddd;
+	padding: 4px;
+	border-radius: 4px;
+	text-align: center;
+	margin: 15px 5px 15px 0;
+}
+#container .about p {
+	line-height: 2;
+	margin: 20px 0;
+}
+#container .about address {
+	line-height: 1.6;
+	margin: 20px 0;
+	font-style: normal;
+}
 
 
 
