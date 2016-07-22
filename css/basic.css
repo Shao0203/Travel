@@ -5,6 +5,9 @@ body, h1, h2, h3, ul, ol, p, form, figure {
 	margin: 0;
 	padding: 0;
 }
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 ul, ol {
 	list-style: outside none none;
 }

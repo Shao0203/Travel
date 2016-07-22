@@ -1,4 +1,71 @@
 @charset "utf-8";
+/*global*/
+html {
+	font-size: 625%;
+}
+body, h1, h2, h3, ul, ol, p, form, figure {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: .16rem;
+}
+ul, ol {
+	list-style: outside none none;
+}
+a {
+	text-decoration: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.hidden {
+	display: none;
+}
+/*header*/
+#header {
+	width: 100%;
+	height: .45rem;
+	background-color: #333;
+}
+#header .link {
+	height: .45rem;
+	line-height: .45rem;
+	text-align: center;
+
+}
+#header .link li {
+	width: 25%;
+	float: left;
+}
+#header .link a {
+	color: #eee;
+	display: block;
+}
+#header .link a:hover,
+#header .active a {
+	background-color: #000;
+}
+#adver {
+	max-width: 6.4rem;
+	margin: 0 auto;
+}
+
+/*footer*/
+#footer {
+	max-width: 6.4rem;
+	background-color: #222;
+	color: #777;
+	margin: 0 auto;
+	text-align: center;
+	padding: .1rem 0;
+}
+#footer .top {
+	padding: 0 0 .05rem 0;
+}
 
 /*search*/
 #search {
@@ -51,7 +118,7 @@
 	margin: -27px 0 0 175px;
 }
 /*popular tourist routes*/
-/*#tour {
+#tour {
 	width: 1263px;
 	height: 1150px;
 	margin: 30px auto;
@@ -120,4 +187,4 @@
 	position: absolute;
 	top: 4px;
 	left: 4px;
-}*/
+}
