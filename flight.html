@@ -2,305 +2,46 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Flights</title>
-	<link rel="stylesheet" href="css/basic.css">
-	<link rel="stylesheet" href="css/column.css">
+	<title>DreamTour</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <!-- header navigation bar start -->
 <header id="header">
-	<div class="center">
-		<h1 class="logo">dream tour travel agency</h1>
-		<nav class="link">
-			<h2 class="hidden">navigation</h2>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="tour.html">Tours</a></li>
-				<li class="active"><a href="flight.html">Flights</a></li>
-				<li><a href="gallery.html">Gallery</a></li>
-				<li><a href="about.html">About</a></li>
-			</ul>
-		</nav>
-	</div>
+	<nav class="link">
+		<h2 class="hidden">navigation</h2>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="tour.html">Tours</a></li>
+			<li class="active"><a href="flight.html">Flights</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</nav>
 </header>
 <!-- header navigation bar end -->
 
-<!-- headline start -->
 <div id="headline">
-	<div class="center">
-		<hgroup>
-			<h2>Travel Info</h2>
-			<h3>Introduce the latest travel information, news, and tips.</h3>
-		</hgroup>
-	</div>
+	<img src="img/headline.png" alt="headline">
+	<hgroup>
+		<h2>Flight booking</h2>
+		<h3>The cheapest tickets you can find.</h3>
+	</hgroup>
 </div>
-<!-- headline end -->
-
-<!-- mainbody start -->
-<div id="container">
-	<aside class="sidebar">
-		<div class="side dest">
-			<h2>Destinations</h2>
-			<div class="tag">
-				<ul>
-					<li><a href="###">Bangkok(7)</a></li>
-					<li><a href="###">Tokyo(5)</a></li>
-					<li><a href="###">Seoul(6)</a></li>
-					<li><a href="###">Bali(3)</a></li>
-					<li><a href="###">Turkey(6)</a></li>
-					<li><a href="###">Hawaii(3)</a></li>
-					<li><a href="###">Mauritius(2)</a></li>
-					<li><a href="###">Greece(1)</a></li>
-					<li><a href="###">Maldives(5)</a></li>
-					<li><a href="###">Egypt(2)</a></li>
-					<li><a href="###">Dubai(7)</a></li>
-					<li><a href="###">Srilanka(6)</a></li>
-					<li><a href="###">Manhattan(3)</a></li>
-					<li><a href="###">Osaka(4)</a></li>
-					<li><a href="###">HongKong(2)</a></li>
-					<li><a href="###">Malaysia(8)</a></li>
-					<li><a href="###">France(7)</a></li>
-					<li><a href="###">Germany(5)</a></li>
-					<li><a href="###">Canada(11)</a></li>
-					<li><a href="###">Australia(9)</a></li>
-					<li><a href="###">Singapore(4)</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="side hot">
-			<h2>Hot Deals</h2>
-			<div class="figure">
-				<figure>
-					<img src="img/hot1.jpg" alt="Bangkok for 6 days">
-					<figcaption>Bangkok for 6 days</figcaption>
-				</figure>
-				<figure>
-					<img src="img/hot2.jpg" alt="Maldives for 4 days">
-					<figcaption>Maldives for 4 days</figcaption>
-				</figure>
-				<figure>
-					<img src="img/hot3.jpg" alt="Xian for 5 days">
-					<figcaption>Xian for 5 days</figcaption>
-				</figure>
-				<figure>
-					<img src="img/hot4.jpg" alt="Tokyo for 8 days">
-					<figcaption>Tokyo for 8 days</figcaption>
-				</figure>
-				<figure>
-					<img src="img/hot5.jpg" alt="Australia for 7 days">
-					<figcaption>Australia for 7 days</figcaption>
-				</figure>
-				<figure>
-					<img src="img/hot6.jpg" alt="Silk Road for 4 days">
-					<figcaption>Silk Road for 4 days</figcaption>
-				</figure>
-				<figure>
-					<img src="img/hot7.jpg" alt="Europe for 9 days">
-					<figcaption>Europe for 9 days</figcaption>
-				</figure>
-				<figure>
-					<img src="img/hot8.jpg" alt="HongKong for 3 days">
-					<figcaption>HongKong for 3 days</figcaption>
-				</figure>
-			</div>
-		</div>
-		<div class="side box">
-			<h2>Tools</h2>
-			<div class="tool">
-				<ul>
-					<li><a href="###" class="tool1">Weather</a></li>
-					<li><a href="###" class="tool2">Train</a></li>
-					<li><a href="###" class="tool3">Flight</a></li>
-					<li><a href="###" class="tool4">Subway</a></li>
-				</ul>
-			</div>
-		</div>
-	</aside>
-	<div class="flight">
-		<form action="###">
-			<h2>Flights booking</h2>
-			<div class="ftype">
-				Book a flight<mark>One-way</mark> Return
-			</div>
-			<div class="location">
-				<p>
-					<label for="from">From</label>
-					<input type="text" name="from" id="from" placeholder="Type From Location">
-				</p>
-				<p>
-					<label for="to">To</label>
-					<input type="text" name="to" id="to" placeholder="Type To Location">
-				</p>
-			</div>
-			<div class="date">
-				<p>
-					<label for="depart">Depart date</label>
-					<input type="text" name="depart" id="depart" placeholder="Type Departing Date">
-				</p>
-				<p>
-					<label for="return">Return date</label>
-					<input type="text" name="return" id="return" placeholder="Type Returning Date">
-				</p>
-			</div>
-			<div class="schbtn">
-				<p>
-					<button type="submit" class="schfly">Search</button>
-				</p>
-			</div>
-		</form>
-		<div class="latest">
-			<h2>Browse latest</h2>
-			<ul>
-				<li>Hot cities:</li>
-				<li>Beijing</li>
-				<li>Tokyo</li>
-				<li>Bangkok</li>
-				<li>London</li>
-				<li>Sydney</li>
-				<li>Seoul</li>
-				<li>Shanghai</li>
-				<li>HongKong</li>
-			</ul>
-			<table>
-				<thead>
-					<tr>
-						<th>Route</th>
-						<th>Date</th>
-						<th>Price</th>
-						<th>GST</th>
-						<th>Airline</th>
-						<th>Booking</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Beijing-Bangkok</td>
-						<td>18/06</td>
-						<td class="price">$380</td>
-						<td>$45</td>
-						<td>Southern Airlines</td>
-						<td><a href="###">Book now</a></td>
-					</tr>
-					<tr>
-						<td>Beijing-London</td>
-						<td>23/05</td>
-						<td class="price">$1180</td>
-						<td>$130</td>
-						<td>Cathay Pacific</td>
-						<td><a href="###">Book now</a></td>
-					</tr>
-					<tr>
-						<td>Beijing-HongKong</td>
-						<td>01/07</td>
-						<td class="price">$260</td>
-						<td>$32</td>
-						<td>Southern Airlines</td>
-						<td><a href="###">Book now</a></td>
-					</tr>
-					<tr>
-						<td>Beijing-Tokyo</td>
-						<td>22/08</td>
-						<td class="price">$780</td>
-						<td>$92</td>
-						<td>Cathay Pacific</td>
-						<td><a href="###">Book now</a></td>
-					</tr>
-					<tr>
-						<td>Beijing-Dubai</td>
-						<td>12/06</td>
-						<td class="price">$1298</td>
-						<td>$173</td>
-						<td>Southern Airlines</td>
-						<td><a href="###">Book now</a></td>
-					</tr>
-					<tr>
-						<td>Beijing-Rome</td>
-						<td>21/02</td>
-						<td class="price">$998</td>
-						<td>$113</td>
-						<td>Cathay Pacific</td>
-						<td><a href="###">Book now</a></td>
-					</tr>
-					<tr>
-						<td>Beijing-Sydney</td>
-						<td>20/09</td>
-						<td class="price">$1113</td>
-						<td>$124</td>
-						<td>Southern Airlines</td>
-						<td><a href="###">Book now</a></td>
-					</tr>
-					<tr>
-						<td>Beijing-Seoul</td>
-						<td>18/07</td>
-						<td class="price">$650</td>
-						<td>$78</td>
-						<td>Cathay Pacific</td>
-						<td><a href="###">Book now</a></td>
-					</tr>
-					<tr>
-						<td>Beijing-Paris</td>
-						<td>11/04</td>
-						<td class="price">$1580</td>
-						<td>$180</td>
-						<td>Southern Airlines</td>
-						<td><a href="###">Book now</a></td>
-					</tr>
-					<tr>
-						<td>Beijing-Seattle</td>
-						<td>16/03</td>
-						<td class="price">$1398</td>
-						<td>$179</td>
-						<td>Cathay Pacific</td>
-						<td><a href="###">Book now</a></td>
-					</tr>
-				</tbody>
-				<tfoot>
-					<tr>
-						<td colspan="6">Load more...</td>
-					</tr>
-				</tfoot>
-			</table>
-		</div>
-	</div>
+<div class="list flight">
+	<h2>Book your flight</h2>
 </div>
-<!-- mainbody end -->
 
 <!-- footer partnership faq contact and copyright start -->
 <footer id="footer">
 	<div class="top">
-		<div class="column left">
-			<h2>Partnership</h2>
-			<hr>
-			<ul>
-				<li><a href="###">YHA China</a></li>
-				<li><a href="###">Qunar Travel</a></li>
-				<li><a href="###">Ali Trip</a></li>
-				<li><a href="###">Youth Travel Service</a></li>
-			</ul>
-		</div>
-		<div class="column mid">
-			<h2>FAQ</h2>
-			<hr>
-			<ul>
-				<li><a href="###">When shall I sign the contract.</a></li>
-				<li><a href="###">How about the discount for children.</a></li>
-				<li><a href="###">What is the best time travel to Australia.</a></li>
-				<li><a href="###">How many kinds of travel insurance.</a></li>
-				<li><a href="###">Can I change the date, is that free.</a></li>
-			</ul>			
-		</div>
-		<div class="column right">
-			<h2>Contact</h2>
-			<hr>
-			<ul>
-				<li><a href="###">Email: info@dreamtour.com</a></li>
-				<li><a href="###">Phone: 010-23504668.</a></li>
-				<li><a href="###">Address: 33 Nanjing rd, Chaoyang, Beijing, China.</a></li>
-			</ul>			
-		</div>
+		PC | IPAD | MOBILE
 	</div>
-	<div class="bottom">Copyright &copy; Dream Tour 2016 | Business license：C-BJ-DT1314</div>
+	<div class="bottom">
+		Copyright &copy; Dream Tour 2016
+	</div>
 </footer>
 <!-- footer partnership faq contact and copyright end -->
+
 </body>
 </html>
