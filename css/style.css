@@ -216,6 +216,130 @@ div, figure, figcaption {
 	margin: .15rem 0;
 	font-style: normal;
 }
+.information figure {
+	margin: .15rem 0 0 0;
+	position: relative;
+}
+.information figure:after {
+	content: '.';
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.information figure img {
+	width: 50%;
+	float: left;
+}
+.information figure figcaption {
+	width: 48%;
+	float: right;
+}
+.information .title {
+	border: none;
+	padding: 0 0 .05rem 0;
+}
+.information .subtitle {
+	font-weight: normal;
+}
+.information .price {
+	color: #f60;
+	position: absolute;
+	bottom: 0;
+}
+.information .price strong {
+	font-size: .20rem;
+}
+
+/* flight */
+
+.flight .ftype {
+	margin: .2rem 0 .1rem 0;
+}
+.flight .ftype mark {
+	background-color: #458b00;
+	padding: .05rem .08rem;
+	color: #fff;
+	border-radius: .04rem;
+	margin: 0 .1rem 0 .16rem;
+}
+.flight p {
+	margin: .1rem 0;
+}
+.flight label {
+	display: block;
+	margin: 0 0 .05rem 0;
+}
+.flight input {
+	width: 97%;
+	height: .2rem;
+	border: 1px solid #ccc;
+	border-radius: .04rem;
+	font-size: .16rem;
+	color: #666;
+	background-color: #fff;
+	padding: .05rem;
+}
+.flight .schfly {
+	background-color: #f60;
+	color: #fff;
+	width: 25%;
+	font-size: .16rem;
+	border-radius: .04rem;
+	border: none;
+	cursor: pointer;
+	padding: .1rem;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+.flight .latest {
+	margin-top: .2rem;
+}
+.flight ul {
+	margin-top: .1rem;
+}
+.flight li {
+	display: inline-block;
+	padding: .05rem;
+}
+.flight li:first-child {
+	padding-left: 0;
+}
+.flight li:nth-child(2) {
+	background-color: #458b00;
+	color: #fff;
+	border-radius: .04rem;
+}
+.flight table {
+	margin-top: .1rem;
+	width: 100%;
+	border: 1px solid #ddd;
+	text-align: center;
+	border-collapse: collapse;
+}
+.flight tr {
+	height: .3rem;
+	line-height: .3rem;
+	border: 1px solid #ddd;
+}
+.flight tr:nth-child(2n) {
+	background-color: #fafafa;
+}
+.flight tr:hover {
+	background-color: #eee;
+}
+.flight .price {
+	color: #f60;
+}
+.flight a {
+	background-color: #f60;
+	color: #fff;
+	text-align: center;
+	border-radius: .04rem;
+	padding: .05rem;
+}
 
 
 	/*media query between 480px and 640px, which is normal device size*/
@@ -223,10 +347,10 @@ div, figure, figcaption {
 	#tour h2 {
 		font-size: .26rem;
 	}
-	#tour h3, #footer, #tour figcaption, #tour .info  {
+	#tour h3, #footer, #tour figcaption, #tour .info, .list {
 		font-size: .16rem;
 	}
-	#headline hgroup h2 {
+	#headline hgroup h2, .information .title {
 		font-size: .22rem;
 	}
 	#headline hgroup h3 {
@@ -239,16 +363,18 @@ div, figure, figcaption {
 	#tour h2 {
 		font-size: .20rem;
 	}
-	#tour h3, #footer, #tour figcaption, #tour .info {
+	#tour h3, #footer, #tour figcaption, #tour .info, .list {
 		font-size: .14rem;
 	}
-	#headline hgroup h2 {
+	#headline hgroup h2, .information .title {
 		font-size: .18rem;
 	}
 	#headline hgroup h3 {
 		font-size: .14rem;
 	}
-
+	.min {
+		display: none;
+	}
 }
 
 
