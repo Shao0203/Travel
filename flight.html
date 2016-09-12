@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Flights</title>
-	<link rel="stylesheet" href="css/basic.css">
-	<link rel="stylesheet" href="css/column.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>DreamTour</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!-- header navigation bar start -->
+<!-- header bar start -->
 <header id="header">
 	<div class="center">
 		<h1 class="logo">dream tour travel agency</h1>
@@ -23,16 +23,15 @@
 		</nav>
 	</div>
 </header>
-<!-- header navigation bar end -->
+<!-- header bar end -->	
 
 <!-- headline start -->
 <div id="headline">
-	<div class="center">
+		<img src="img/headline.jpg" alt="headline">
 		<hgroup>
-			<h2>Travel Info</h2>
-			<h3>Introduce the latest travel information, news, and tips.</h3>
+			<h2>Flight booking</h2>
+			<h3>The cheapest tickets you can find.</h3>
 		</hgroup>
-	</div>
 </div>
 <!-- headline end -->
 
@@ -116,7 +115,7 @@
 			</div>
 		</div>
 	</aside>
-	<div class="flight">
+	<div class="list flight">
 		<form action="###">
 			<h2>Flights booking</h2>
 			<div class="ftype">
@@ -167,90 +166,90 @@
 						<th>Route</th>
 						<th>Date</th>
 						<th>Price</th>
-						<th>GST</th>
+						<th class="min">GST</th>
 						<th>Airline</th>
 						<th>Booking</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td>Beijing-Bangkok</td>
+						<td>Bangkok</td>
 						<td>18/06</td>
 						<td class="price">$380</td>
-						<td>$45</td>
-						<td>Southern Airlines</td>
+						<td class="min">$45</td>
+						<td>Southern</td>
 						<td><a href="###">Book now</a></td>
 					</tr>
 					<tr>
-						<td>Beijing-London</td>
+						<td>London</td>
 						<td>23/05</td>
 						<td class="price">$1180</td>
-						<td>$130</td>
-						<td>Cathay Pacific</td>
+						<td class="min">$130</td>
+						<td>Pacific</td>
 						<td><a href="###">Book now</a></td>
 					</tr>
 					<tr>
-						<td>Beijing-HongKong</td>
+						<td>HongKong</td>
 						<td>01/07</td>
 						<td class="price">$260</td>
-						<td>$32</td>
-						<td>Southern Airlines</td>
+						<td class="min">$32</td>
+						<td>Southern</td>
 						<td><a href="###">Book now</a></td>
 					</tr>
 					<tr>
-						<td>Beijing-Tokyo</td>
+						<td>Tokyo</td>
 						<td>22/08</td>
 						<td class="price">$780</td>
-						<td>$92</td>
-						<td>Cathay Pacific</td>
+						<td class="min">$92</td>
+						<td>Pacific</td>
 						<td><a href="###">Book now</a></td>
 					</tr>
 					<tr>
-						<td>Beijing-Dubai</td>
+						<td>Dubai</td>
 						<td>12/06</td>
 						<td class="price">$1298</td>
-						<td>$173</td>
-						<td>Southern Airlines</td>
+						<td class="min">$173</td>
+						<td>Southern</td>
 						<td><a href="###">Book now</a></td>
 					</tr>
 					<tr>
-						<td>Beijing-Rome</td>
+						<td>Rome</td>
 						<td>21/02</td>
 						<td class="price">$998</td>
-						<td>$113</td>
-						<td>Cathay Pacific</td>
+						<td class="min">$113</td>
+						<td>Cathay</td>
 						<td><a href="###">Book now</a></td>
 					</tr>
 					<tr>
-						<td>Beijing-Sydney</td>
+						<td>Sydney</td>
 						<td>20/09</td>
 						<td class="price">$1113</td>
-						<td>$124</td>
-						<td>Southern Airlines</td>
+						<td class="min">$124</td>
+						<td>Southern</td>
 						<td><a href="###">Book now</a></td>
 					</tr>
 					<tr>
-						<td>Beijing-Seoul</td>
+						<td>Seoul</td>
 						<td>18/07</td>
 						<td class="price">$650</td>
-						<td>$78</td>
-						<td>Cathay Pacific</td>
+						<td class="min">$78</td>
+						<td>Cathay</td>
 						<td><a href="###">Book now</a></td>
 					</tr>
 					<tr>
-						<td>Beijing-Paris</td>
+						<td>Paris</td>
 						<td>11/04</td>
 						<td class="price">$1580</td>
-						<td>$180</td>
-						<td>Southern Airlines</td>
+						<td class="min">$180</td>
+						<td>Southern</td>
 						<td><a href="###">Book now</a></td>
 					</tr>
 					<tr>
-						<td>Beijing-Seattle</td>
+						<td>Seattle</td>
 						<td>16/03</td>
 						<td class="price">$1398</td>
-						<td>$179</td>
-						<td>Cathay Pacific</td>
+						<td class="min">$179</td>
+						<td>Pacific</td>
 						<td><a href="###">Book now</a></td>
 					</tr>
 				</tbody>
@@ -265,9 +264,9 @@
 </div>
 <!-- mainbody end -->
 
-<!-- footer partnership faq contact and copyright start -->
+<!-- footer start -->
 <footer id="footer">
-	<div class="top">
+	<div class="top sm-hidden">
 		<div class="column left">
 			<h2>Partnership</h2>
 			<hr>
@@ -295,12 +294,13 @@
 			<ul>
 				<li><a href="###">Email: info@dreamtour.com</a></li>
 				<li><a href="###">Phone: 010-23504668.</a></li>
-				<li><a href="###">Address: 33 Nanjing rd, Chaoyang, Beijing, China.</a></li>
+				<li><a href="###">Address: 33 Nanjing rd, Beijing, China.</a></li>
 			</ul>			
 		</div>
 	</div>
+	<div class="clearfix"></div>
 	<div class="bottom">Copyright &copy; Dream Tour 2016 | Business license：C-BJ-DT1314</div>
 </footer>
-<!-- footer partnership faq contact and copyright end -->
+<!-- footer end -->
 </body>
 </html>
