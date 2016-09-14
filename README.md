@@ -13,6 +13,3 @@ Flight booking
   
 ![Flight](https://github.com/Shao0203/Travel/raw/master/gif/flight.gif)
 
-Search page  
-  
-![Search](https://github.com/Shao0203/Travel/raw/master/img/searchpage.gif)
